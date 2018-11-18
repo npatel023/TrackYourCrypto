@@ -1,0 +1,40 @@
+body {
+  background-color: #1F618D;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+#signup-title {
+  text-align: center;
+  color: #D7E1EB;
+}
+
+#signup-form {
+  text-align: center;
+}
+
+#signup-btn {
+  border: 2px solid #D0D0D0;
+  color: #D0D0D0;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 10px 12px;
+  width: 378px;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px 12px;
+  width: 350px;
+}
+
+@media (min-width: 1200px) {
+  #signup-btn:hover {
+    background-color: #43A047;
+  }
+}
